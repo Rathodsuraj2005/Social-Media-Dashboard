@@ -1,0 +1,65 @@
+.dashboard-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .title {
+    color: #007bff;
+  }
+  
+  .login-btn, .logout-btn, .post-btn, .like-btn {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .login-btn {
+    background-color: #28a745;
+  }
+  
+  .logout-btn {
+    background-color: #dc3545;
+  }
+  
+  .post-btn {
+    background-color: #007bff;
+  }
+  
+  .like-btn {
+    background-color: #ff4757;
+  }
+  
+  .post-input, .comment-input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .posts {
+    margin-top: 20px;
+  }
+  
+  .post {
+    background: white;
+    padding: 15px;
+    margin: 10px auto;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+  }
+  
+  .comments {
+    margin-top: 10px;
+  }
+  
+  .comment {
+    font-style: italic;
+    color: #555;
+  }
+  
